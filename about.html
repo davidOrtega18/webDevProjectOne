@@ -10,11 +10,8 @@
 
 <!--
   ***
-  TODO: fill in your header
-  INSERT YOUR NAME HERE
-  INSERT THE CURRENT DATE HERE
-
-  WRITE A 2-3 SENTENCE FILE DESCRIPTION HERE
+  INSERT David Ortega
+  October 10th 2023
   ***
 -->
 <html lang="en">
@@ -24,28 +21,45 @@
     <title>CP1</title>
   </head>
   <body>
+    <a href="./index.html">home</a>
     <section>
-      <h1>*** TODO: Describe this page succinctly! ***</h1>
+      <div class = "rectangle">
+      <h1>This page describes a little bit about me</h1>
+      </div>
+      <div class ="box">
       <p>
-        *** TODO: Insert a brief description of yourself in 1-2 sentences (e.g. background,
-        something you did during the break, what you're looking forward to in AD 320, etc.).
+        I am David Ortega. I was born and raise in Leon, Mexico. I was very busy over the summer taking care of kids and doing
+        an internship. I am hoping to learn more about web development. 
       </p>
+      </div>
     </section>
 
     <section>
-      <h2>Classes I'm currently taking</h2>
+      <h2 class = "header-font">Classes I am currently taking.</h2>
+      <ul>
+        <li>Project Management</li>
+        <li>Web development</li>
+        <li>Info 300</li> 
+      </ul>
       <!--
         *** TODO: Finish the following unordered list with classes you are currently taking (in order
         of most-to-least favorite). We've shown you two list items, but you may need to add more.
       -->
-      <ul>
-        <li>*** TODO: add your first favorite class***</li>
-        <li>*** TODO: add your second favorite class***</li>
-      </ul>
+
     </section>
 
     <section>
-      <h2>Five of My Favorite Things</h2>
+      <h2 class = "header-font"> Here are my top five favorite things to do </h2>
+        <div class = "favorite">
+        <ol>
+          <li>Playing soccer</li>
+          <li>Snowbording</li>
+          <li>Playing video games</li>
+          <li>Playing with my kids</li>
+          <li>Cooking</li>
+          </ol>
+          </div>
+     
       <!--
         ***
         TODO: Finish the following list of your favorite things (you can customize the
@@ -56,12 +70,13 @@
         If you have multiple favorites in a category, try a nested list inside of an li!
         ***
       -->
+       <h2 class = "header-font">Here are some of my interest</h2>
       <ol>
-        <li><strong>Favorite animal:</strong> *** TODO: fill in your answer ***</li>
-        <li><strong>Favorite food:</strong> *** TODO: fill in your answer ***</li>
-        <li><strong>Favorite TV show:</strong> *** TODO: fill in your answer***</li>
-        <li><strong>Favorite hobby:</strong> *** TODO: fill in your answer ***</li>
-        <li><strong>Favorite ???:</strong> *** TODO: fill in your answer ***</li>
+        <li><strong><a href="Lion.jpg" alt="Lion">My favorite animal</a></strong> </li>
+        <li><strong><a href="Tacos.jpg" alt="Tacos">My favorite food</a></strong></li>
+        <li><strong><a href="BOB.jpg"></strong> Favorite TV show</a></li>
+        <li><strong><a href="Cooking.jpeg"></strong> Cooking is a hobbie of mine</a></li>
+        <li><strong><a href="Biking.jpeg"></strong> I love biking</a></li>
       </ol>
 
       <!--
@@ -70,15 +85,20 @@
         Google Image Search) but remember to cite your sources
         ***
       -->
-
-      <h3>A picture that represents when I'm happy</h3>
-      <img src="*** TODO: add image file***" alt="*** TODO: insert descriptive text for screenreaders***">
-      <p>*** TODO: add citation of where you got this file ***</p>
-
-      <h3>A picture that represents when I'm sad</h3>
-      <img src="*** TODO: add image file***" alt="*** TODO: insert descriptive text for screenreaders***">
-      <p>*** TODO: add citation of where you got this file ***</p>
-
+      <div>
+        <div class = "column">
+          <img src=snowboarding.jpeg alt="snowboarding" class="image">
+          <img src="poverty.jpg" alt="poverty" class="image">
+        </div>
+        <div class="column">
+          <h1 class = "description"> Outdoor activities make me happy 
+            and snowbording is one of them.</h1>
+          <h1 class = "description"> <a href="https://www.japantimes.co.jp/news/2015/07/24/world/social-issues-world/mexico-poverty-rate-hit-46-2-last-year-2-million-join-ranks-poor/">
+            poverty makes me sad. 
+          </a></h1>
+        </div>
+      </div>
+      
       <h3>One of my favorite quotes</h3>
       <!--
         Note: We'll learn about semantic tags more this week, but an article is a good semantic
@@ -87,12 +107,14 @@
         "card UI" structure
       -->
       <article>
-        <blockquote>
+        <div class="rectangle">
           <p>
-            *** TODO: Insert a favorite quote here. Add another paragraph tag if needed! ***
+            Humans are the only animals that stumble upon the same rock.
+            My father.
+         
           </p>
-          <footer>*** TODO: Insert the source (e.g. author) for the quote here.***</footer>
-        </blockquote>
+  
+        </div>
       </article>
     </section>
   </body>
